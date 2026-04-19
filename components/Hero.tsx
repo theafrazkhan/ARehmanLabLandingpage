@@ -107,66 +107,75 @@ export default function Hero() {
               marginTop: 2,
             }}
           >
-            Speakers Institute Corporate
-          </p>
-          <p
-            style={{
-              fontFamily: "var(--font-inter)",
-              fontSize: 11,
-              color: "var(--color-text-muted)",
-              fontStyle: "italic",
-              marginTop: 2,
-            }}
-          >
-            Inspiring Great Experts
+            Neuroleadership Speaking Institute
           </p>
         </div>
 
+        {/* UNIGNORABLE BADGE */}
+        <div style={{ textAlign: "center", padding: "24px 24px 0" }}>
+          <span
+            style={{
+              display: "inline-block",
+              fontFamily: "var(--font-montserrat)",
+              fontSize: 13,
+              fontWeight: 700,
+              letterSpacing: 4,
+              color: "var(--color-white)",
+              background: "var(--color-secondary)",
+              padding: "8px 24px",
+              borderRadius: 4,
+              textTransform: "uppercase",
+            }}
+          >
+            UNIGNORABLE
+          </span>
+        </div>
+
         {/* MAIN HEADLINE */}
-        <div style={{ textAlign: "center", padding: "48px 24px 40px" }}>
+        <div style={{ textAlign: "center", padding: "36px 24px 40px" }}>
           <h1
             style={{
               fontFamily: "var(--font-bebas)",
-              fontSize: "clamp(56px, 10vw, 96px)",
+              fontSize: "clamp(48px, 9vw, 88px)",
               lineHeight: 0.95,
               color: "var(--color-secondary)",
               letterSpacing: 3,
               margin: "0 auto 28px",
             }}
           >
-            THE WORLD-CLASS
+            YOUR BRAIN DIDN&apos;T FREEZE.
             <br />
-            PRE-PERFORMANCE
-            <br />
-            SYSTEM
+            IT WAS HIJACKED.
           </h1>
-
-          <p
-            style={{
-              fontFamily: "var(--font-montserrat)",
-              fontSize: 14,
-              fontWeight: 600,
-              letterSpacing: 4,
-              color: "var(--color-text-primary)",
-              textTransform: "uppercase",
-              margin: "0 0 20px",
-            }}
-          >
-            Perform At Your Best. Every Time It Matters.
-          </p>
 
           <p
             style={{
               fontFamily: "var(--font-inter)",
               fontSize: 16,
               color: "var(--color-text-secondary)",
-              maxWidth: 540,
-              margin: "0 auto",
+              maxWidth: 600,
+              margin: "0 auto 28px",
               lineHeight: 1.8,
             }}
           >
-            Master the proven system elite performers use to control their
-            state, eliminate inconsistency, and execute under pressure.
+            In high-pressure moments — interviews, presentations, high-stakes
+            meetings — your amygdala floods your body with cortisol and shuts
+            down the logical part of your brain. You don&apos;t need more
+            practice. You need to hack your biology.
+          </p>
+
+          <a href="https://www.arehmanlab.com/lms" className="btn-primary">
+            Learn the T.R.U.S.T. Framework — Free
+          </a>
+          <p
+            style={{
+              fontFamily: "var(--font-inter)",
+              fontSize: 12,
+              color: "var(--color-text-muted)",
+              marginTop: 10,
+            }}
+          >
+            Free. No credit card. Start in 2 minutes.
           </p>
         </div>
 
@@ -192,7 +201,7 @@ export default function Hero() {
           >
             <Image
               src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80"
-              alt="Pre-Performance Advantage"
+              alt="UNIGNORABLE — Decode Contagious Trust Communication"
               fill
               sizes="(max-width: 768px) 100vw, 1100px"
               style={{ objectFit: "cover" }}
@@ -230,7 +239,7 @@ export default function Hero() {
                   lineHeight: 1.05,
                 }}
               >
-                THE PRE-PERFORMANCE ADVANTAGE
+                DECODE CONTAGIOUS TRUST COMMUNICATION
               </p>
               <p
                 style={{
@@ -242,8 +251,8 @@ export default function Hero() {
                   margin: 0,
                 }}
               >
-                How the World&apos;s Best Control Their State, Access Their
-                Best, and Perform Under Pressure
+                The neuroscience-backed system to eliminate freezing, own any
+                room, and communicate with unshakeable confidence.
               </p>
             </div>
           </div>

@@ -58,10 +58,66 @@ export default function VisionBlock() {
           Not because of how you feel... but because you&apos;ve trained it.
         </p>
 
+        {/* VALUE STACK */}
+        <div
+          style={{
+            textAlign: "left",
+            maxWidth: 480,
+            margin: "0 auto 32px",
+            fontFamily: "var(--font-inter)",
+            fontSize: 15,
+            color: "var(--color-text-primary)",
+            lineHeight: 2.2,
+          }}
+        >
+          <p
+            style={{
+              fontFamily: "var(--font-montserrat)",
+              fontWeight: 700,
+              fontSize: 16,
+              margin: "0 0 12px",
+            }}
+          >
+            Start free today and get:
+          </p>
+          <p style={{ margin: "0 0 4px" }}>
+            <span style={{ color: "var(--color-success)", marginRight: 10 }}>
+              ✓
+            </span>
+            The full 7-lesson UNIGNORABLE video course
+          </p>
+          <p style={{ margin: "0 0 4px" }}>
+            <span style={{ color: "var(--color-success)", marginRight: 10 }}>
+              ✓
+            </span>
+            The Calm Code Pre-Performance Playbook — your neural operating
+            system for every high-pressure moment
+          </p>
+          <p style={{ margin: "0 0 4px" }}>
+            <span style={{ color: "var(--color-success)", marginRight: 10 }}>
+              ✓
+            </span>
+            Access to the ARehman Lab community
+          </p>
+          <p
+            style={{
+              fontWeight: 600,
+              color: "var(--color-text-secondary)",
+              margin: "12px 0 0",
+              fontSize: 13,
+            }}
+          >
+            Free. No credit card required.
+          </p>
+        </div>
+
         {/* CTA 4 — Final */}
-        <a href="/sign-up" className="btn-primary btn-primary-lg">
-            Let&apos;s Get Started →
-          </a>
+        <a
+          href="https://www.arehmanlab.com/lms"
+          className="btn-primary btn-primary-lg"
+        >
+          Let&apos;s Get Started →
+        </a>
         <p
           style={{
             fontFamily: "var(--font-inter)",
@@ -70,7 +126,7 @@ export default function VisionBlock() {
             marginTop: 10,
           }}
         >
-          Join 1,000+ high performers already inside
+          Join 1,000+ high performers already inside.
         </p>
       </div>
     </section>

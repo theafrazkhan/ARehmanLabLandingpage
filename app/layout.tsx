@@ -24,9 +24,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "The Pre-Performance Advantage | Speakers Institute Corporate",
+  title:
+    "UNIGNORABLE by Dr. Attiq ur Rehman — Decode Contagious Trust Communication | ARehman Lab",
   description:
-    "Master the proven system elite performers use to control their state, eliminate inconsistency, and execute under pressure.",
+    "UNIGNORABLE: Decode Contagious Trust Communication. Learn the neuroscience-backed T.R.U.S.T. Framework to eliminate freezing, own any room, and communicate with unshakeable confidence.",
   icons: { icon: "/logo.webp" },
 };
 

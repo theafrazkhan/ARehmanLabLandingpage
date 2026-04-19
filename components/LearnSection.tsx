@@ -56,7 +56,7 @@ export default function LearnSection() {
 
         {/* CTA 2 */}
         <div style={{ textAlign: "center", marginTop: 56 }}>
-          <a href="/sign-up" className="btn-primary" style={{ minWidth: 320 }}>
+          <a href="https://www.arehmanlab.com/lms" className="btn-primary" style={{ minWidth: 320 }}>
               Dive In &amp; Start The Program
             </a>
         </div>

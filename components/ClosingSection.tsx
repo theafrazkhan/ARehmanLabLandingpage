@@ -99,7 +99,7 @@ export default function ClosingSection() {
                 marginLeft: 4,
               }}
             >
-              &times; Speakers Institute Corporate
+              &times; Neuroleadership Speaking Institute
             </span>
           </div>
           <p
@@ -110,8 +110,8 @@ export default function ClosingSection() {
               margin: 0,
             }}
           >
-            &copy; {new Date().getFullYear()} ArehmanLab Academy. All rights
-            reserved.
+            &copy; 2026 ARehman Lab &amp; Neuroleadership Speaking Institute.
+            All rights reserved.
           </p>
         </div>
       </footer>

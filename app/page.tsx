@@ -1,8 +1,10 @@
 "use client";
 import { useFadeIn } from "@/hooks/useFadeIn";
 import Hero from "@/components/Hero";
+import SmartphoneAnalogy from "@/components/SmartphoneAnalogy";
 import ProblemSection from "@/components/ProblemSection";
-import SixRsSection from "@/components/SixRsSection";
+import TrustFrameworkSection from "@/components/SixRsSection";
+import InstructorBio from "@/components/InstructorBio";
 import LearnSection from "@/components/LearnSection";
 import StepsStrip from "@/components/StepsStrip";
 import ForWhoSection from "@/components/ForWhoSection";
@@ -20,9 +22,11 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      <SmartphoneAnalogy />
       <ProblemSection />
       <Divider />
-      <SixRsSection />
+      <TrustFrameworkSection />
+      <InstructorBio />
       <LearnSection />
       <Divider />
       <StepsStrip />

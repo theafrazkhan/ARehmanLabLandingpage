@@ -1,6 +1,6 @@
 "use client";
 
-import { forWhoItems } from "@/lib/data";
+import { forWhoItems, forWhoStudentItems } from "@/lib/data";
 
 export default function ForWhoSection() {
   return (
@@ -26,48 +26,98 @@ export default function ForWhoSection() {
           >
             This program is for high performers who...
           </h2>
-          <ol
-            style={{
-              listStyle: "none",
-              fontFamily: "var(--font-inter)",
-              fontSize: 15,
-              lineHeight: 2.4,
-              flex: "1 1 320px",
-              padding: 0,
-              margin: 0,
-            }}
-          >
-            {forWhoItems.map((item, i) => (
-              <li
-                key={item}
-                style={{
-                  display: "flex",
-                  alignItems: "flex-start",
-                  gap: 12,
-                  color: "var(--color-text-primary)",
-                }}
-              >
-                <span
+          <div style={{ flex: "1 1 320px" }}>
+            <ol
+              style={{
+                listStyle: "none",
+                fontFamily: "var(--font-inter)",
+                fontSize: 15,
+                lineHeight: 2.4,
+                padding: 0,
+                margin: 0,
+              }}
+            >
+              {forWhoItems.map((item, i) => (
+                <li
+                  key={item}
                   style={{
-                    color: "var(--color-secondary)",
-                    fontWeight: 700,
-                    minWidth: 22,
-                    fontFamily: "var(--font-montserrat)",
+                    display: "flex",
+                    alignItems: "flex-start",
+                    gap: 12,
+                    color: "var(--color-text-primary)",
                   }}
                 >
-                  {i + 1}.
-                </span>
-                {item}
-              </li>
-            ))}
-          </ol>
+                  <span
+                    style={{
+                      color: "var(--color-secondary)",
+                      fontWeight: 700,
+                      minWidth: 22,
+                      fontFamily: "var(--font-montserrat)",
+                    }}
+                  >
+                    {i + 1}.
+                  </span>
+                  {item}
+                </li>
+              ))}
+            </ol>
+
+            {/* STUDENT AUDIENCE */}
+            <p
+              style={{
+                fontFamily: "var(--font-montserrat)",
+                fontSize: 13,
+                fontWeight: 700,
+                color: "var(--color-secondary)",
+                letterSpacing: 1,
+                textTransform: "uppercase",
+                margin: "32px 0 12px",
+              }}
+            >
+              Also built for students and young adults who...
+            </p>
+            <ol
+              style={{
+                listStyle: "none",
+                fontFamily: "var(--font-inter)",
+                fontSize: 15,
+                lineHeight: 2.4,
+                padding: 0,
+                margin: 0,
+              }}
+            >
+              {forWhoStudentItems.map((item, i) => (
+                <li
+                  key={item}
+                  style={{
+                    display: "flex",
+                    alignItems: "flex-start",
+                    gap: 12,
+                    color: "var(--color-text-primary)",
+                  }}
+                >
+                  <span
+                    style={{
+                      color: "var(--color-secondary)",
+                      fontWeight: 700,
+                      minWidth: 22,
+                      fontFamily: "var(--font-montserrat)",
+                    }}
+                  >
+                    {i + 1}.
+                  </span>
+                  {item}
+                </li>
+              ))}
+            </ol>
+          </div>
         </div>
 
         {/* CTA 3 — outlined */}
         <div style={{ textAlign: "center", marginTop: 56 }}>
-          <a href="/sign-up" className="btn-outline">
-              I&apos;m Ready To Prepare Like A High Performer →
-            </a>
+          <a href="https://www.arehmanlab.com/lms" className="btn-outline">
+            I&apos;m Ready To Prepare Like A High Performer →
+          </a>
         </div>
       </div>
     </section>

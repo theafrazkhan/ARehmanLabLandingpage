@@ -50,9 +50,9 @@ export default function ProblemSection() {
 
         {/* CTA */}
         <div style={{ textAlign: "center", marginBottom: 48 }}>
-          <a href="/sign-up" className="btn-primary">
-              Build Your Pre-Performance System &darr;
-            </a>
+          <a href="https://www.arehmanlab.com/lms" className="btn-primary">
+            Learn the T.R.U.S.T. Framework — Free
+          </a>
           <p
             style={{
               fontFamily: "var(--font-inter)",
@@ -61,7 +61,7 @@ export default function ProblemSection() {
               marginTop: 8,
             }}
           >
-            Free — Start in 2 minutes
+            Free. No credit card. Start in 2 minutes.
           </p>
         </div>
 

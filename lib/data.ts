@@ -16,42 +16,45 @@ export const problemCards = [
   },
 ];
 
-export const sixRs = [
+export const trustFramework = [
   {
-    title: "REGULATE",
-    sub: "Control your psychology",
-    img: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80",
+    letter: "T",
+    title: "Trigger Neural Safety",
+    description:
+      "Use box breathing to activate your vagus nerve, flush cortisol, and bring your prefrontal cortex back online.",
   },
   {
-    title: "REHEARSE",
-    sub: "Mentally prepare",
-    img: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80",
+    letter: "R",
+    title: "Rehearse for Neuroplasticity",
+    description:
+      "Visualise your performance before you walk in. Brain scans show this fires the same neural pathways as doing it for real.",
   },
   {
-    title: "REFINE",
-    sub: "Sharpen your focus",
-    img: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&q=80",
+    letter: "U",
+    title: "Unify Your Focus",
+    description:
+      "Three bullet points. One cue word. Total mental clarity — even under maximum pressure.",
   },
   {
-    title: "REINFORCE",
-    sub: "Anchor identity",
-    img: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&q=80",
+    letter: "S",
+    title: "Switch Identity",
+    description:
+      "Step into the version of you that owns the room. Your posture alone changes your brain chemistry.",
   },
   {
-    title: "RELEASE",
-    sub: "Trust and let loose",
-    img: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80",
-  },
-  {
-    title: "REVIEW",
-    sub: "Continuously improve",
-    img: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&q=80",
+    letter: "T",
+    title: "Take the Leap",
+    description:
+      "Confidence comes after the leap, never before. Trust your training and move.",
   },
 ];
 
 export const steps = [
   { step: "STEP 1", body: "Understand how your brain performs under pressure" },
-  { step: "STEP 2", body: "Learn the 6Rs framework used by elite performers" },
+  {
+    step: "STEP 2",
+    body: "Learn the T.R.U.S.T. framework used by elite performers",
+  },
   {
     step: "STEP 3",
     body: "Build your personalized pre-performance routine",
@@ -73,10 +76,16 @@ export const forWhoItems = [
   'Are tired of relying on "how they feel"',
 ];
 
+export const forWhoStudentItems = [
+  "Have gone blank mid-presentation and wanted to disappear",
+  "Know their content but freeze the moment all eyes are on them",
+  "Are preparing for interviews, vivas, or high-stakes moments at university or early in their career",
+];
+
 export const testimonials = [
-  "I've never felt this in control under pressure.",
-  "This changed how I prepare for every important meeting.",
-  "Simple. Powerful. Game-changing.",
+  "[Real student testimonial to be added — Name, University/Role]",
+  "[Real student testimonial to be added — Name, University/Role]",
+  "[Real student testimonial to be added — Name, University/Role]",
 ];
 
 export const visionLines = ["You're calm.", "You're sharp.", "You're ready."];
